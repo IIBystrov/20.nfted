@@ -206,15 +206,10 @@
     width: 100%;
     max-width: 1195px;
 
-    margin: 0 auto 47px;
+    margin: 30px auto 47px;
 }
 
 /* logo */
-
-.header__logo {
-    width: 100%;
-    max-width: 140px;
-}
 
 .logo {
     font-family: "Roboto", sans-serif;
@@ -224,6 +219,11 @@
     line-height: 1.66;
     text-transform: uppercase;
     color: var(--accent-color-text);
+}
+
+.header__logo {
+    width: 100%;
+    max-width: 140px;
 }
 
 /* .nav */
@@ -251,12 +251,6 @@
 
 /* .btn */
 
-.header__btn {
-    min-width: 175px;
-
-    padding: 18px 33px;
-}
-
 .btn {
     border: 1px solid transparent;
     border-radius: 8px;
@@ -268,6 +262,12 @@
     line-height: var(--default-lineheight);
     text-transform: capitalize;
     color: var(--standart-color-text);
+}
+
+.header__btn {
+    min-width: 175px;
+
+    padding: 18px 33px;
 }
 
 .btn--accent {
