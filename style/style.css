@@ -209,5 +209,11 @@
 }
 
 .logo {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: var(--logo-size-text);
+    line-height: 1.66;
+    text-transform: uppercase;
     color: var(--accent-color-text);
 }
