@@ -166,5 +166,15 @@
     color: var(--default-color-text);
 }
 
+/* .wrapper */
+
+.wrapper {
+    width: 100%;
+    max-width: 1419px;
+
+    overflow: hidden;
+
+    background: var(--default-bg);
+}
 
 
