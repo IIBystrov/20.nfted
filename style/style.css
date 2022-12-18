@@ -165,6 +165,8 @@
 /* .page */
 
 .page {
+    background: var(--standart-bg);
+    
     font-family: "Poppins", sans-serif;
     color: var(--default-color-text);
 }
@@ -174,6 +176,8 @@
 .wrapper {
     width: 100%;
     max-width: 1419px;
+
+    margin: 0 auto;
 
     overflow: hidden;
 
