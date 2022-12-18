@@ -78,6 +78,21 @@
 }
 
 /* roboto */
+/* roboto regular */
+
+@font-face {
+    font-family: "Roboto";
+    src: local("Roboto regular"),
+        url("../fonts/roboto/regular/roboto_regular.eot"),
+        url("../fonts/roboto/regular/roboto_regular.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/roboto/regular/roboto_regular.woff2") format("woff2"),
+        url("../fonts/roboto/regular/roboto_regular.woff") format("woff"),
+        url("../fonts/roboto/regular/roboto_regular.ttf") format("truetype"),
+        url("../fonts/roboto/regular/roboto_regular.svg") format("svg");
+    font-weight: 400;
+    font-style: normal;
+}
+
 /* roboto medium */
 
 @font-face {
