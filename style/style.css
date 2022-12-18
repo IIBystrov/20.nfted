@@ -153,9 +153,15 @@
     font-style: normal;
 }
 
+/* variables */
 
 
+/* .page */
 
+.page {
+    font-family: "Poppins", sans-serif;
+    color: var(--default-color-text);
+}
 
 
 
