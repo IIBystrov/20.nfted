@@ -164,6 +164,7 @@
 
     --default-bg: #ffffff;
     --standart-bg: #f5f5f5;
+    --dark-bg: #2d3640;
 }
 
 /* .page */
@@ -233,6 +234,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    gap: 55px;
 }
 
 .nav__link {
