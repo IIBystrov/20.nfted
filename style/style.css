@@ -200,3 +200,10 @@
     margin: 0 auto 47px;
 }
 
+/* logo */
+
+.header__logo {
+    width: 100%;
+    max-width: 140px;
+}
+
