@@ -184,4 +184,12 @@
     background: var(--default-bg);
 }
 
+/* .header */
+
+.page__header {
+    width: 100%;
+    max-width: 810px;
+
+    margin: 0 auto 47px;
+}
 
