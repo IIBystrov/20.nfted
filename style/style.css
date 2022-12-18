@@ -1,0 +1,15 @@
+/* fonts */
+
+/* poppins */
+/* poppins regular */
+
+@font-face {
+    font-family: "Poppins";
+    src: local("Poppins regular"),
+        url("../fonts/poppins/regular/poppins_regular.eot"),
+        url("../fonts/poppins/regular/poppins_regular.eot?#eifix") format("embedded-opentype"),
+        url("../fonts/poppins/regular/poppins_regular.woff2") format("woff2"),
+        url("../fonts/poppins/regular/poppins_regular.woff") format("woff"),
+        url("../fonts/poppins/regular/poppins_regular.ttf") format("truetype"),
+        url("../fonts/poppins/regular/poppins_regular.svg") format("svg");
+}
