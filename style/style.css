@@ -157,10 +157,14 @@
 
 :root {
     --default-color-text: #242424;
+    --standart-color-text: #ffffff;
     --accent-color-text: #f89773;
 
+    --default-size-btn: 16px;
     --default-size-text: 18px;
     --logo-size-text: 40px;
+
+    --default-lineheight: 1.5;
 
     --default-bg: #ffffff;
     --standart-bg: #f5f5f5;
@@ -200,7 +204,7 @@
 
 .page__header {
     width: 100%;
-    max-width: 810px;
+    max-width: 1195px;
 
     margin: 0 auto 47px;
 }
@@ -245,7 +249,27 @@
     line-height: 1.2;
 }
 
+/* .btn */
+
 .header__btn {
-    width: 100%;
-    max-width: 175px;
+    min-width: 175px;
+
+    padding: 18px 33px;
+}
+
+.btn {
+    border: 1px solid transparent;
+    border-radius: 8px;
+
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: var(--default-size-btn);
+    line-height: var(--default-lineheight);
+    text-transform: capitalize;
+    color: var(--standart-color-text);
+}
+
+.btn--accent {
+    background: var(--dark-bg);
 }
