@@ -155,6 +155,9 @@
 
 /* variables */
 
+:root {
+    --default-color-text: #242424;
+}
 
 /* .page */
 
