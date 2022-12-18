@@ -12,6 +12,8 @@
         url("../fonts/poppins/regular/poppins_regular.woff") format("woff"),
         url("../fonts/poppins/regular/poppins_regular.ttf") format("truetype"),
         url("../fonts/poppins/regular/poppins_regular.svg") format("svg");
+    font-weight: 400;
+    font-style: normal;
 }
 
 /* poppins extrabold */
@@ -25,9 +27,26 @@
         url("../fonts/poppins/extrabold/poppins_extrabold.woff") format("woff"),
         url("../fonts/poppins/extrabold/poppins_extrabold.ttf") format("truetype"),
         url("../fonts/poppins/extrabold/poppins_extrabold.svg") format("svg");
+    font-weight: 800;
+    font-style: normal;
 }
 
 /* josefin */
+/* josefin sans semibold */
+
+@font-face {
+    font-family: "Josefin sans semibold";
+    src: local("Josefin sans semibold"),
+        url("../fonts/josefin/semibold/josefin_sans_semibold.eot"),
+        url("../fonts/josefin/semibold/josefin_sans_semibold.eot?#eifix") format("embedded-opentype"),
+        url("../fonts/josefin/semibold/josefin_sans_semibold.woff2") format("woff2"),
+        url("../fonts/josefin/semibold/josefin_sans_semibold.woff") format("woff"),
+        url("../fonts/josefin/semibold/josefin_sans_semibold.ttf") format("truetype"),
+        url("../fonts/josefin/semibold/josefin_sans_semibold.svg") format("svg");
+    font-weight: 600;
+    font-style: normal;
+}
+
 /* josefin sans bold */
 
 @font-face {
@@ -39,4 +58,6 @@
         url("../fonts/josefin/bold/josefin_sans_bold.woff") format("woff"),
         url("../fonts/josefin/bold/josefin_sans_bold.ttf") format("truetype"),
         url("../fonts/josefin/bold/josefin_sans_bold.svg") format("svg");
+    font-weight: 700;
+    font-style: normal;
 }
