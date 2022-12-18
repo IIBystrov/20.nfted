@@ -26,3 +26,17 @@
         url("../fonts/poppins/extrabold/poppins_extrabold.ttf") format("truetype"),
         url("../fonts/poppins/extrabold/poppins_extrabold.svg") format("svg");
 }
+
+/* josefin */
+/* josefin sans bold */
+
+@font-face {
+    font-family: "Josefin";
+    src: local("Josefin sans bold"),
+        url("../fonts/josefin/bold/josefin_sans_bold.eot"),
+        url("../fonts/josefin/bold/josefin_sans_bold.eot?#eifix") format("embedded-opentype"),
+        url("../fonts/josefin/bold/josefin_sans_bold.woff2") format("woff2"),
+        url("../fonts/josefin/bold/josefin_sans_bold.woff") format("woff"),
+        url("../fonts/josefin/bold/josefin_sans_bold.ttf") format("truetype"),
+        url("../fonts/josefin/bold/josefin_sans_bold.svg") format("svg");
+}
