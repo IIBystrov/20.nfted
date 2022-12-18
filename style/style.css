@@ -273,3 +273,14 @@
 .btn--accent {
     background: var(--dark-bg);
 }
+
+/* .intro */
+
+.page__intro {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+    width: 100%;
+}
