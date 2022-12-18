@@ -16,6 +16,21 @@
     font-style: normal;
 }
 
+/* poppins medium */
+
+@font-face {
+    font-family: "Poppins";
+    src: local("Poppins medium"),
+        url("../fonts/poppins/medium/poppins_medium.eot"),
+        url("../fonts/poppins/medium/poppins_medium.eot?#eifix") format("embedded-opentype"),
+        url("../fonts/poppins/medium/poppins_medium.woff2") format("woff2"),
+        url("../fonts/poppins/medium/poppins_medium.woff") format("woff"),
+        url("../fonts/poppins/medium/poppins_medium.ttf") format("truetype"),
+        url("../fonts/poppins/medium/poppins_medium.svg") format("svg");
+    font-weight: 500;
+    font-style: normal;
+}
+
 /* poppins semibold */
 
 @font-face {
