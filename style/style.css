@@ -61,3 +61,21 @@
     font-weight: 700;
     font-style: normal;
 }
+
+/* roboto */
+/* roboto medium */
+
+@font-face {
+    font-family: "Roboto";
+    src: local("Roboto medium"),
+        url("../fonts/roboto/medium/roboto_medium.eot"),
+        url("../fonts/roboto/medium/roboto_medium.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/roboto/medium/roboto_medium.woff2") format("woff2"),
+        url("../fonts/roboto/medium/roboto_medium.woff") format("woff"),
+        url("../fonts/roboto/medium/roboto_medium.ttf") format("truetype"),
+        url("../fonts/roboto/medium/roboto_medium.svg") format("svg");
+    font-weight: 500;
+    font-style: normal;
+}
+
+
