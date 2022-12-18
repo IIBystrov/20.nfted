@@ -157,6 +157,8 @@
 
 :root {
     --default-color-text: #242424;
+
+    --default-bg: #ffffff;
 }
 
 /* .page */
