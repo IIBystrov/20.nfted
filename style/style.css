@@ -16,6 +16,21 @@
     font-style: normal;
 }
 
+/* poppins semibold */
+
+@font-face {
+    font-family: "Poppins";
+    src: local("Poppins semibold"),
+        url("../fonts/poppins/semibold/poppins_semibold.eot"),
+        url("../fonts/poppins/semibold/poppins_semibold.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/poppins/semibold/poppins_semibold.woff2") format("woff2"),
+        url("../fonts/poppins/semibold/poppins_semibold.woff") format("woff"),
+        url("../fonts/poppins/semibold/poppins_semibold.ttf") format("truetype"),
+        url("../fonts/poppins/semibold/poppins_semibold.svg") format("svg");
+    font-weight: 600;
+    font-style: normal;
+}
+
 /* poppins bold */
 
 @font-face {
