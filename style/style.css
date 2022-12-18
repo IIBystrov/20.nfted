@@ -244,3 +244,8 @@
     font-size: var(--default-size-text);
     line-height: 1.2;
 }
+
+.header__btn {
+    width: 100%;
+    max-width: 175px;
+}
