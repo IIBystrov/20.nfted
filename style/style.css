@@ -207,3 +207,6 @@
     max-width: 140px;
 }
 
+.logo {
+    color: var(--accent-color-text);
+}
