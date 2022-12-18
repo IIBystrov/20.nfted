@@ -193,6 +193,15 @@
     background: var(--default-bg);
 }
 
+/* .inner */
+
+.inner {
+    width: 100%;
+    max-width: 1195px;
+
+    margin: 0 auto;
+}
+
 /* .header */
 
 .header {
@@ -204,7 +213,6 @@
 
 .page__header {
     width: 100%;
-    max-width: 1195px;
 
     margin: 30px auto 47px;
 }
@@ -281,6 +289,6 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    
+
     width: 100%;
 }
