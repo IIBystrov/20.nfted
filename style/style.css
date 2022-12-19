@@ -292,3 +292,7 @@
 
     width: 100%;
 }
+
+.intro__thumb {
+    position: absolute;
+}
