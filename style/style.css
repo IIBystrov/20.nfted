@@ -360,6 +360,10 @@
     font-size: var(--standart-size-btn)
 }
 
+.btn--w-margin {
+    padding: 0;
+}
+
 .btn__icon {
     height: 55px;
 }
