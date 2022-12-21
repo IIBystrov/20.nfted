@@ -351,16 +351,19 @@
     width: 100%;
 }
 
+.intro__thumb--active {
+    position: absolute;
+    left: 0; 
+    top: 0;
+    z-index: 5;
+}
+
 .thumb__icon--bg {
     position: absolute;
     left: 0;
     top: 0;
     right: 0;
     bottom: 0;
-}
-
-.intro__thumb--active {
-    position: absolute;
 }
 
 .intro__header {
