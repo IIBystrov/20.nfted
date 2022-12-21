@@ -693,6 +693,8 @@
 .card {
     position: relative;
 
+    height: 265px;
+    
     overflow: hidden;
 }
 
