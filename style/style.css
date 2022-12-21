@@ -602,6 +602,7 @@
 }
 
 .page__artist {
+    padding: 54px 42px 56px;
     background: var(--dark-accent-bg);
 }
 
