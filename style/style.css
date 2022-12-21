@@ -323,3 +323,18 @@
     text-transform: capitalize;
     color: transparent;
 }
+
+.intro__description {
+    margin: 0 0 45px;
+    
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: var(--default-size-text);
+    line-height: calc(var(--default-lineheight)*1.095);
+    color: rgba(36, 36, 36, 0.7);
+}
+
+.intro__description *:not(:last-child) {
+    margin: 0 0 15px;
+}
