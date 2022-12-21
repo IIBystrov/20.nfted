@@ -165,6 +165,7 @@
     --default-size-btn: 16px;
     --default-size-text: 18px;
     --logo-size-text: 40px;
+    --small-size-text: 45px;
     --accent-size-text: 55px;
     --title-size-text: 62px;
     --large-size-text: 75px;
@@ -628,6 +629,16 @@
     
     width: 100%;
     max-width: 64px;
+}
+
+.title--min {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: var(--small-size-text);
+    line-height: var(--default-lineheight);
+    text-transform: capitalize;
+    color: var(--standart-color-text);
 }
 
 .artist__list {
