@@ -194,6 +194,7 @@
 
     /* border */
     --soft-border: #dea694;
+    --default-border: #ffffff;
 }
 
 /* .page */
@@ -659,6 +660,23 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    gap: 15px;
+}
+
+.header__control {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    max-width: 45px;
+
+    padding: 8px 16px;
+
+    background: transparent;
+    border: 1px solid var(--default-border);
+    border-radius: 10px;
 }
 
 .card__avatar {
