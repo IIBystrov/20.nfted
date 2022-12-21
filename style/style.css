@@ -330,6 +330,25 @@
 }
 
 .intro__thumb {
+    display: block;
+
+    width: 100%;
+    max-width: 99px;
+
+    margin: 0 0 45px;
+
+    border-radius: 16px;
+
+    overflow: hidden;
+}
+
+.thumb__icon {
+    display: block;
+
+    width: 100%;
+}
+
+.intro__thumb--active {
     position: absolute;
 }
 
