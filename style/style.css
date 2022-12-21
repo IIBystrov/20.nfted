@@ -323,6 +323,8 @@
 
     width: 100%;
     height: 715px;
+
+    margin: 0 auto 107px;
 }
 
 .intro-column {
@@ -569,7 +571,32 @@
 /* .artist */
 
 .artist {
+    position: relative;
+
     width: 100%;
+}
+
+.artist:after,
+.artist:before {
+    content: "";
+
+    position: absolute;
+
+    display: block;
+
+    width: 299px;
+    height: 299px;
+
+    background: #483e94;
+    border-radius: 50%;
+    filter: blur(40px);
+
+    opacity: 0.9;
+}
+
+.artist::after {
+    right: 0;
+    bottom: 0;
 }
 
 .page__artist {
