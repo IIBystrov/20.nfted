@@ -419,3 +419,15 @@
 .btn__icon {
     height: 55px;
 }
+
+.intro__contain-img {
+    position: relative;
+}
+
+.intro__ellipse-main {
+    width: 100%;
+    max-width: 525px;
+    height: 752px;
+
+    transform: rotate(124.8deg)
+}
