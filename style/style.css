@@ -318,6 +318,15 @@
     align-items: center;
 
     width: 100%;
+    height: 715px;
+}
+
+.intro-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    width: 50%;
 }
 
 .intro__thumb {
@@ -377,6 +386,9 @@
 }
 
 .intro__description {
+    width:100%;
+    max-width: 500px;
+    
     margin: 0 0 45px;
     
     font-family: "Roboto", sans-serif;
@@ -426,6 +438,9 @@
 
 .intro__contain-img {
     position: relative;
+    z-index: 5;
+
+    width: 100%;
 }
 
 .intro__ellipse-blur {
@@ -440,9 +455,9 @@
 
     background: var(--radial-gradient-start);
     border-radius: 50%;
-    filter: blur(10px);
-
-    transform: translateX(-50%);
+    filter: blur(6px);
+    
+    transform: translate(-41%, -13%);
 }
 
 .intro__ellipse-main {
@@ -453,8 +468,22 @@
     max-width: 525px;
     height: 752px;
 
-    transform: rotate(-124.8deg) translateX(-50%);
+    transform: rotate(-142.8deg) translate(-75%, -4%);
     transform-origin: 0 0;
     background: var(--anim-gradient-start);
     border-radius: 50%;
+}
+
+.intro__img {
+    position: relative;
+    z-index: 4;
+
+    display: block;
+
+    width: 100%;
+    max-width: 525px;
+}
+
+.intro__arrow {
+    position: absolute;
 }
