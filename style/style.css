@@ -351,6 +351,14 @@
     width: 100%;
 }
 
+.thumb__icon--bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
 .intro__thumb--active {
     position: absolute;
 }
