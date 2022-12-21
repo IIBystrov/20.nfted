@@ -182,6 +182,8 @@
                      #0f1322 69.15%, #301565 100%);
     --soft-gradient: linear-gradient(to right, #8AD4EC 0%, #EF96FF 21.74%, 
                      #FF56A9 54.03%, #FFAA6C 85.28%);
+    --radial-gradient-start: radial-gradient(rgba(90, 79, 79, 0) 0%,
+                    rgba(255, 255, 255, 0.46) 100%);
     --anim-gradient-start: linear-gradient(to top, #8AECB1 0%,#EF96FF 21.74%,
                     #FF56A9 54.03%,#FC9850 85.28%);
 
@@ -426,9 +428,27 @@
     position: relative;
 }
 
+.intro__ellipse-blur {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    z-index: 3;
+
+    width: 100%;
+    max-width: 525px;
+    height: 752px;
+
+    background: var(--radial-gradient-start);
+    border-radius: 50%;
+    filter: blur(10px);
+
+    transform: translateX(-50%);
+}
+
 .intro__ellipse-main {
-    position:absolute;
-    
+    position: absolute;
+    z-index: 2;
+        
     width: 100%;
     max-width: 525px;
     height: 752px;
