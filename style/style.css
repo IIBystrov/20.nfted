@@ -324,13 +324,11 @@
     margin: 0 0 62px;
 }
 
-.intro__header *:not(:last-child) {
-    margin: 0 0 15px;
+.intro__title-contain {
+    position: relative;
 }
 
 .intro__title {
-    position: relative;
-
     background: var(--accent-gradient);
     background-clip: text;
     -webkit-background-clip: text;
@@ -345,7 +343,9 @@
 }
 
 .intro__title-inner {
-    position: relative;
+    position: absolute;
+    right: 20%;
+    bottom: 0;
     z-index: 0;
 
     max-width: 142px;
@@ -368,7 +368,7 @@
     font-size: var(--accent-size-text);
     text-transform: uppercase;
     text-align: center;
-    letter-spacing: 5%;
+    letter-spacing: 2px;
     color: transparent;
 }
 
