@@ -362,11 +362,18 @@
 .btn--standart {
     background: var(--accent-bg);
 
-    font-size: var(--standart-size-btn)
+    font-size: var(--standart-size-btn);
 }
 
 .btn--w-margin {
+    gap: 37px;
+    
     padding: 0;
+
+    background: transparent;
+
+    font-size: var(--standart-size-btn);
+    color: var(--default-color-text);
 }
 
 .btn__icon {
