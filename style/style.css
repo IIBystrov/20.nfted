@@ -686,6 +686,11 @@
     height: 29px;
 }
 
+.card {
+    position: relative;
+
+}
+
 .card__avatar {
     display: block;
 
