@@ -348,6 +348,8 @@
     border-radius: 16px;
 
     overflow: hidden;
+
+    animation: anim-icon 3s ease-in infinite;
 }
 
 .thumb__icon {
@@ -549,6 +551,8 @@
     transform-origin: 0 0;
     background: var(--anim-gradient-start);
     border-radius: 50%;
+
+    animation: anim-gradient 5s infinite;
 }
 
 .intro__img {
@@ -720,4 +724,31 @@
     border-radius: 50%;
 
     object-fit: cover;
+}
+
+
+/* animations */
+
+@keyframes anim-gradient {
+    0% {
+        background-position: bottom;
+    }
+    50% {
+        background-position: middle;
+    }
+    100% {
+        background-position: top;
+    }
+}
+
+@keyframes anim-icon {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(10%);
+    }
+    100% {
+        transform: translateX(0);
+    }
 }
