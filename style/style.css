@@ -340,3 +340,7 @@
 .intro__description *:not(:last-child) {
     margin: 0 0 15px;
 }
+
+.btn--standart {
+    background: var(--accent-bg);
+}
