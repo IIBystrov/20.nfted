@@ -163,13 +163,15 @@
     --default-size-btn: 16px;
     --default-size-text: 18px;
     --logo-size-text: 40px;
+    --title-size-text: 62px;
 
+    --smoll-lineheight: 1.4;
     --default-lineheight: 1.5;
 
     --default-bg: #ffffff;
     --standart-bg: #f5f5f5;
     --dark-bg: #2d3640;
-    --accent-gradient: linear-gradient(#2D1562 0%, #A62E85 34.9%, #0F1322 69.15%, #301565 100%);
+    --accent-gradient: linear-gradient(to right, #2D1562 0%, #A62E85 34.9%, #0F1322 69.15%, #301565 100%);
 }
 
 /* .page */
@@ -298,4 +300,20 @@
 
 .intro__thumb {
     position: absolute;
+}
+
+.intro__title {
+
+    background: var(--accent-gradient);
+    background-clip: text;
+    -webkit-background-clip: text;
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: var(--title-size-text);
+    line-height: var(--smoll-lineheight);
+    text-transform: capitalize;
+
+    color: transparent;
 }
