@@ -181,7 +181,7 @@
                      #0f1322 69.15%, #301565 100%);
     --soft-gradient: linear-gradient(to right, #8AD4EC 0%, #EF96FF 21.74%, 
                      #FF56A9 54.03%, #FFAA6C 85.28%);
-    --soft-light-gradient: linear-gradient(to right, FFF4F1 0%, #DEA694 100%);
+    --soft-light-gradient: linear-gradient(to right, #FFF4F1 0%, #DEA694 100%);
 
     /* border */
     --soft-border: #dea694;
@@ -367,6 +367,23 @@
     text-align: center;
     letter-spacing: 5%;
     color: transparent;
+}
+
+.intro__title-text:before {
+    content: "";
+
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+
+    display: block;
+
+    width: 100%;
+
+    background: var(--soft-light-gradient);
 }
 
 .intro__description {
