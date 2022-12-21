@@ -156,25 +156,35 @@
 /* variables */
 
 :root {
+    /* color */
     --default-color-text: #242424;
     --standart-color-text: #ffffff;
     --accent-color-text: #f89773;
 
+    /* font-size */
     --default-size-btn: 16px;
-    --standart-size-btn: 18px;
     --default-size-text: 18px;
     --logo-size-text: 40px;
+    --accent-size-text: 55px;
     --title-size-text: 62px;
 
+    /* line-height */
     --smoll-lineheight: 1.4;
     --default-lineheight: 1.5;
 
+    /* background */
     --default-bg: #ffffff;
     --standart-bg: #f5f5f5;
     --dark-bg: #2d3640;
     --accent-bg: #ff6e30;
     --accent-gradient: linear-gradient(to right, #2d1562 0%, #a62e85 34.9%,
                      #0f1322 69.15%, #301565 100%);
+    --soft-gradient: linear-gradient(to right, #8AD4EC 0%, #EF96FF 21.74%, 
+                     #FF56A9 54.03%, #FFAA6C 85.28%);
+    --soft-light-gradient: linear-gradient(to right, FFF4F1 0%, #DEA694 100%);
+
+    /* border */
+    --soft-border: #dea694;
 }
 
 /* .page */
@@ -320,7 +330,7 @@
 
 .intro__title {
     position: relative;
-    
+
     background: var(--accent-gradient);
     background-clip: text;
     -webkit-background-clip: text;
@@ -331,6 +341,31 @@
     font-size: var(--title-size-text);
     line-height: var(--smoll-lineheight);
     text-transform: capitalize;
+    color: transparent;
+}
+
+.intro__title-text {
+    position: relative;
+
+    display: block;
+
+    max-width: 142px;
+
+    padding: 14px;
+
+    background: var(--soft-gradient);
+    background-clip: text;
+    -webkit-background-clip: text;
+    border: 1px solid var(--soft-border);
+    border-radius: 2px;
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: var(--accent-size-text);
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 5%;
     color: transparent;
 }
 
@@ -364,7 +399,7 @@
 .btn--standart {
     background: var(--accent-bg);
 
-    font-size: var(--standart-size-btn);
+    font-size: var(--default-size-text);
 }
 
 .btn--w-margin {
@@ -374,7 +409,7 @@
 
     background: transparent;
 
-    font-size: var(--standart-size-btn);
+    font-size: var(--default-size-text);
     color: var(--default-color-text);
 }
 
