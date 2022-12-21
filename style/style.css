@@ -679,6 +679,10 @@
     border-radius: 10px;
 }
 
+.btn__icon--control {
+    height: 29px;
+}
+
 .card__avatar {
     display: block;
 
