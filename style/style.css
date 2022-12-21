@@ -658,6 +658,10 @@
     width: 100%;
 }
 
+.artist__item {
+    flex: 0 0 215px;
+}
+
 .header__contain--btn {
     display: flex;
     flex-direction: row;
@@ -689,6 +693,17 @@
 .card {
     position: relative;
 
+    overflow: hidden;
+}
+
+.card__layer {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: -1;
+
+    height: 161px;
 }
 
 .card__avatar {
