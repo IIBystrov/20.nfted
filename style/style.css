@@ -359,3 +359,7 @@
 
     font-size: var(--standart-size-btn)
 }
+
+.btn__icon {
+    height: 55px;
+}
