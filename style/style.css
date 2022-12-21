@@ -342,6 +342,14 @@
     margin: 0 0 15px;
 }
 
+.btn-contain {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 42px;
+}
+
 .intro__btn {
     padding: 18px 43.5px;
 }
