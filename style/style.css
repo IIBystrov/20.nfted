@@ -302,8 +302,15 @@
     position: absolute;
 }
 
-.intro__title {
+.intro__header {
+    margin: 0 0 62px;
+}
 
+.intro__header *:not(:last-child) {
+    margin: 0 0 15px;
+}
+
+.intro__title {
     background: var(--accent-gradient);
     background-clip: text;
     -webkit-background-clip: text;
@@ -314,6 +321,5 @@
     font-size: var(--title-size-text);
     line-height: var(--smoll-lineheight);
     text-transform: capitalize;
-
     color: transparent;
 }
