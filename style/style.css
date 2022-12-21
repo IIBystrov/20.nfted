@@ -654,6 +654,13 @@
     width: 100%;
 }
 
+.header__contain--btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
 .card__avatar {
     display: block;
 
