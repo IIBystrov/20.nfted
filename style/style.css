@@ -623,6 +623,12 @@
     gap: 10px;
 }
 
+.header__icon-contain {
+    width: 100%;
+    max-width: 64px;
+    height: 64px;
+}
+
 .artist__list {
     position: relative;
     z-index: 1;
