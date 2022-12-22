@@ -931,6 +931,15 @@
     border-radius: 10px;
 }
 
+.select__icon {
+    display: block;
+
+    width: 100%;
+    max-width: 10px;
+
+    object-fit: cover;
+}
+
 
 .market__inner {
     display: flex;
