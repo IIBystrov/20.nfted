@@ -881,6 +881,10 @@
     gap: 30px;
 }
 
+.market__column {
+    width: 50%;
+}
+
 .market__list {
     display: flex;
     flex-direction: row;
@@ -892,6 +896,10 @@
 .market__card {
     width: 100%;
     max-width: 284px;
+}
+
+..market__card--preview {
+    width: 100%;
 }
 
 .market__card-img {
