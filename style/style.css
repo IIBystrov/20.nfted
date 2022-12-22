@@ -801,6 +801,8 @@
     max-width: 218px;
 
     margin: 39px auto 29px;
+
+    text-align: center;
 }
 
 .features__numb {
@@ -813,7 +815,23 @@
     font-style: normal;
     font-size: calc(var(--large-size-text)*1.14);
     line-height: var(--min-lineheight);
-    text-align: center;
+    color: var(--default-color-text);
+}
+
+.features__lead {
+    display: inline-block;
+
+    padding: 10px 32px;
+
+    background: var(--default-bg);
+    border-radius: 10px;
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: calc(var(--default-size-text)*0.67);
+    line-height: var(--min-lineheight);
+    text-transform: capitalize;
     color: var(--default-color-text);
 }
 
