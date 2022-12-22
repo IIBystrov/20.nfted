@@ -862,7 +862,7 @@
     width: 100%;
 
     margin: 0 0 85px;
-    padding: 88px 43px 0;
+    padding: 88px 43px 84px;
 
     background: var(--grey-bg);
 }
@@ -992,6 +992,10 @@
     margin: 0 0 10px;
 }
 
+.market__card-img--preview {
+    max-height: 100%;
+}
+
 .market__card-desc {
     margin: 0 0 15px;
     padding: 0 15px;
@@ -1012,13 +1016,21 @@
 
 .market__subtitle {
     margin: 0 0 17px;
-    
+
     font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-style: normal;
     font-size: var(--default-size-btn);
     line-height: var(--smoll-lineheight);
     color: var(--default-color-text);
+}
+
+.market__card-contain {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
 }
 
 
