@@ -806,6 +806,8 @@
 .features__numb {
     position: relative;
 
+    margin: 0 0 22px;
+
     font-family: "Poppins", sans-serif;
     font-weight: 700;
     font-style: normal;
