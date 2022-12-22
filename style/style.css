@@ -873,6 +873,16 @@
     margin: 0 0 62px;
 }
 
+.market__title {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: var(--small-size-text);
+    line-height: var(--default-lineheight);
+    text-transform: capitalize;
+    color: var(--default-color-text);
+}
+
 .market__inner {
     display: flex;
     flex-direction: row;
