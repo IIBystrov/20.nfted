@@ -195,6 +195,7 @@
 
     /* border */
     --soft-border: #dea694;
+    --accent-border: #ff6e30;
     --default-border: #ffffff;
 }
 
@@ -733,7 +734,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 88px;
+    gap: 79px;
 
     height: 140px;
 
@@ -753,6 +754,21 @@
     font-style: normal;
     font-size: var(--default-size-text);
     line-height: var(--min-lineheight);
+    color: var(--standart-color-text);
+}
+
+.card__btn {
+    padding: 11px 37px 12px;
+
+    background: var(--accent-bg);
+    border: 1px solid var(--accent-border);
+    border-radius: 10px;
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: calc(var(--default-size-text)*0.83);
+    line-height: var(--default-lineheight);
     color: var(--standart-color-text);
 }
 
