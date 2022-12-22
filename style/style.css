@@ -199,6 +199,7 @@
     /* border */
     --soft-border: #dea694;
     --accent-border: #ff6e30;
+    --grey-border: #bbbbbb;
     --default-border: #ffffff;
 }
 
@@ -889,6 +890,7 @@
     justify-content: center;
     align-items: center;
 }
+
 .market__inner {
     display: flex;
     flex-direction: row;
