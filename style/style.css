@@ -1056,6 +1056,10 @@
     opacity: 0.7;
 }
 
+.cost--preview {
+    font-size: calc(var(--default-size-text)*1.22);
+}
+
 .market__btn {
     padding: 7px 24.5px;
 
