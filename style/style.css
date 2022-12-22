@@ -199,6 +199,7 @@
     /* border */
     --soft-border: #dea694;
     --accent-border: #ff6e30;
+    --light-grey-border: #cccccc;
     --grey-border: #bbbbbb;
     --default-border: #ffffff;
 }
@@ -893,6 +894,26 @@
     border: 1px solid var(--grey-border);
     border-radius: 10px;
 }
+
+.market__nav-link {
+    display: inline-block;
+    
+    padding: 17px 13px 17px 14px;
+
+    background: inherit;
+    
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: calc(var(--default-size-tex)*0.83);
+    color: var(--default-color-text);
+    text-transform: capitalize;
+}
+
+.market__nav-link {
+    border-left: 1px solid var(--light-grey-border);
+}
+
 
 .market__inner {
     display: flex;
