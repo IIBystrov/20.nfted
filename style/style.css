@@ -785,6 +785,13 @@
     display: none;
 }
 
+.features__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
 /* animations */
 
 @keyframes anim-gradient {
