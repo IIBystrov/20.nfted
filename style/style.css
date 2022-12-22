@@ -883,6 +883,12 @@
     color: var(--default-color-text);
 }
 
+.market__nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
 .market__inner {
     display: flex;
     flex-direction: row;
