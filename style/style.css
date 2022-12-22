@@ -1033,6 +1033,18 @@
     gap: 10px;
 }
 
+.market__cost {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: calc(var(--default-size-text)*0.67);
+    line-height: var(--default-lineheight);
+    text-transform: uppercase;
+    color: var(--default-color-text);
+
+    opacity: 0.7;
+}
+
 
 
 
