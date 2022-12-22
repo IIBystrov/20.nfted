@@ -1075,6 +1075,16 @@
     color: var(--default-color-text);
 }
 
+.btn--preview {
+    padding: 18px 43.5px;
+
+    background: var(--accent-bg);
+    border: 1px solid var(--accent-border);
+
+    font-size: var(--default-size-text);
+    color: var(--standart-color-text);
+}
+
 
 
 
