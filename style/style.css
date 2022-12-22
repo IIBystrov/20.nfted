@@ -859,10 +859,19 @@
     width: 100%;
 
     margin: 0 0 85px;
+    padding: 0 43px;
 
     background: var(--grey-bg);
 }
 
+.market__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 0 0 62px;
+}
 /* animations */
 
 @keyframes anim-gradient {
