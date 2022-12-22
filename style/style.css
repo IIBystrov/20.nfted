@@ -781,6 +781,10 @@
     margin: 0 0 85px;
 }
 
+.features__title {
+    display: none;
+}
+
 /* animations */
 
 @keyframes anim-gradient {
