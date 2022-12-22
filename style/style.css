@@ -999,13 +999,24 @@
 
 .market__link {
     display: inline-block;
-    
+
     margin: 0 0 4px;
 
     font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-style: normal;
     font-size: calc(var(--default-size-text)*0.67);
+    line-height: var(--smoll-lineheight);
+    color: var(--default-color-text);
+}
+
+.market__subtitle {
+    margin: 0 0 17px;
+    
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: var(--default-size-btn);
     line-height: var(--smoll-lineheight);
     color: var(--default-color-text);
 }
