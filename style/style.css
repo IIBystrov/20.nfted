@@ -1015,9 +1015,9 @@
     color: var(--default-color-text);
 }
 
-.preview__link {
+.link--preview {
     margin: 0 0 14px;
-    
+
     font-size: var(--default-size-text);
 }
 
@@ -1030,6 +1030,10 @@
     font-size: var(--default-size-btn);
     line-height: var(--smoll-lineheight);
     color: var(--default-color-text);
+}
+
+.subtitle--preview {
+    font-size: calc(var(--default-size-text)*1.33);
 }
 
 .market__card-contain {
