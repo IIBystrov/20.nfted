@@ -898,8 +898,8 @@
     max-width: 284px;
 }
 
-..market__card--preview {
-    width: 100%;
+.market__card--preview {
+    max-width: 100%;
 }
 
 .market__card-img {
