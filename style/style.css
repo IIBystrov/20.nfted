@@ -737,6 +737,8 @@
 
     height: 140px;
 
+    transform: translateY(53%);
+
     text-align: center;
 }
 
