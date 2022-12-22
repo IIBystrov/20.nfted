@@ -873,6 +873,14 @@
     margin: 0 0 62px;
 }
 
+.market__inner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 30px;
+}
+
 .market__list {
     display: flex;
     flex-direction: row;
