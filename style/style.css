@@ -997,6 +997,19 @@
     padding: 0 15px;
 }
 
+.market__link {
+    display: inline-block;
+    
+    margin: 0 0 4px;
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: calc(var(--default-size-text)*0.67);
+    line-height: var(--smoll-lineheight);
+    color: var(--default-color-text);
+}
+
 
 
 
