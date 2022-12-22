@@ -1002,6 +1002,11 @@
     padding: 0 15px;
 }
 
+.card-desc--preview {
+    margin: 0 0 45px;
+    padding: 0 45px 0 28px; 
+}
+
 .market__link {
     display: inline-block;
 
