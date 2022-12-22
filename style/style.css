@@ -724,6 +724,8 @@
 
     border-radius: 50%;
 
+    transform: translateY(30%);
+
     object-fit: cover;
 }
 
