@@ -200,6 +200,7 @@
     --soft-border: #dea694;
     --accent-border: #ff6e30;
     --light-grey-border: #cccccc;
+    --space-grey: #e9d5d5;
     --grey-border: #bbbbbb;
     --default-border: #ffffff;
 }
@@ -973,6 +974,8 @@
 .market__card {
     width: 100%;
     max-width: 284px;
+
+    border: 1px solid var(--space-grey);
 }
 
 .market__card--preview {
@@ -988,6 +991,8 @@
 
     margin: 0 0 10px;
 }
+
+
 
 
 /* animations */
