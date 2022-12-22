@@ -889,6 +889,11 @@
     gap: 30px;
 }
 
+.market__card {
+    width: 100%;
+    max-width: 284px;
+}
+
 .market__card-img {
     display: block;
 
