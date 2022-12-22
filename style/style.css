@@ -967,7 +967,7 @@
 .market__list {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 30px;
 }
@@ -1003,7 +1003,7 @@
 }
 
 .card-desc--preview {
-    margin: 0 0 45px;
+    margin: 0 0 52px;
     padding: 0 45px 0 28px; 
 }
 
@@ -1038,7 +1038,7 @@
 }
 
 .subtitle--preview {
-    font-size: calc(var(--default-size-text)*1.33);
+    font-size: calc(var(--default-size-text)*1.4);
 }
 
 .market__card-contain {
