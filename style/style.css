@@ -171,6 +171,7 @@
     --large-size-text: 75px;
 
     /* line-height */
+    --min-lineheight: 1.2;
     --smoll-lineheight: 1.4;
     --default-lineheight: 1.5;
 
@@ -724,6 +725,15 @@
     border-radius: 50%;
 
     object-fit: cover;
+}
+
+.card__link {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: var(--default-size-text);
+    line-height: var(--min-lineheight);
+    color: var(--standart-color-text);
 }
 
 
