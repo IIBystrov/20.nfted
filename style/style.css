@@ -804,12 +804,27 @@
 }
 
 .features__numb {
+    position: relative;
+
     font-family: "Poppins", sans-serif;
     font-weight: 700;
     font-style: normal;
     font-size: calc(var(--large-size-text)*1.14);
     line-height: var(--min-lineheight);
+    text-align: center;
     color: var(--default-color-text);
+}
+
+.features__numb:after {
+    content: "+";
+
+    position: absolute;
+    top: 4%;
+    right: -13%;
+
+    font: inherit;
+    font-size: calc(var(--small-size-text)*0.8);
+    line-height: var(--smoll-lineheight);
 }
 
 /* animations */
