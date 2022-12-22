@@ -914,6 +914,10 @@
     border-left: 1px solid var(--light-grey-border);
 }
 
+.link-w-border {
+    border: none;
+}
+
 
 .market__inner {
     display: flex;
