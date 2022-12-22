@@ -1015,6 +1015,12 @@
     color: var(--default-color-text);
 }
 
+.preview__link {
+    margin: 0 0 14px;
+    
+    font-size: var(--default-size-text);
+}
+
 .market__subtitle {
     margin: 0 0 17px;
 
