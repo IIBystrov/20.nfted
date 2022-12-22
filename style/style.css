@@ -889,6 +889,12 @@
     gap: 30px;
 }
 
+.market__card-img {
+    display: block;
+
+    width: 100%;
+}
+
 
 /* animations */
 
