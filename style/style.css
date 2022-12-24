@@ -1267,6 +1267,14 @@
     background: var(--pseudo--bg);
 }
 
+.description__img {
+    width: 100%;
+    max-width: 562px;
+    height: 594px;
+
+    object-fit: contain;
+}
+
 /* animations */
 
 @keyframes anim-gradient {
