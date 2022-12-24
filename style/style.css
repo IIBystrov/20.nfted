@@ -179,6 +179,7 @@
     --default-bg: #ffffff;
     --standart-bg: #f5f5f5;
     --grey-bg: #f1f1f3;
+    --light-grey-bg: #f7f7f8;
     --dark-bg: #2d3640;
     --dark-accent-bg: #2c353d;
     --soft-bg: #fff4f1;
@@ -1284,6 +1285,15 @@
 
 /* .order */
 
+.order {
+    width: 100%;
+}
+
+.page__order {
+    margin: 0 0 138px;
+
+    background: var(--light-grey-bg);
+}
 .order__inner {
     display: flex;
     flex-direction: row;
@@ -1293,6 +1303,7 @@
 
     margin: 0 0 100px;
 }
+
 /* animations */
 
 @keyframes anim-gradient {
