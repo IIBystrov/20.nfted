@@ -366,6 +366,10 @@
     animation: anim-icon 3s ease-in infinite;
 }
 
+.intro__thumb--alternate {
+    animation: anim-icon-alternate 4s ease-in-out infinite;
+}
+
 .thumb__icon {
     display: block;
 
