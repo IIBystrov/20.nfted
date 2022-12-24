@@ -1091,7 +1091,18 @@
 }
 
 
+/* .description */
 
+.description {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.page__description {
+    background: var(--grey-bg);
+}
 
 /* animations */
 
