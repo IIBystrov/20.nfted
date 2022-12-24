@@ -186,6 +186,7 @@
     --icon-soft-bg: #f9acdf;
     --icon-light-bg: #b1f0ca;
     --icon--default-bg: #efd894;
+    --pseudo--bg: #311761;
     --caption-gradient: linear-gradient(to right, #ffffff 0%, #1f1820 21.74%,
                      #d36e30 54.03%, #2b6915 85.28%);
     --accent-gradient: linear-gradient(to right, #2d1562 0%, #a62e85 34.9%,
@@ -1237,12 +1238,33 @@
 }
 
 .description__cost {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 21.4px;
+
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-style: normal;
     font-size: calc(var(--default-size-text)*1.45);
     line-height: var(--smoll-lineheight);
     color: var(--default-color-text);
+}
+
+.description__cost::before,
+.description__cost::after {
+    content: "";
+    
+    position: relative;
+
+    display: block;
+
+    width: 100%;
+    max-width: 52.2px;
+    height: 2px;
+
+    background: var(--pseudo--bg);
 }
 
 /* animations */
