@@ -1281,6 +1281,18 @@
     object-fit: contain;
 }
 
+
+/* .order */
+
+.order__inner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+
+    margin: 0 0 100px;
+}
 /* animations */
 
 @keyframes anim-gradient {
