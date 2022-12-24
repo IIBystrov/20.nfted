@@ -1129,6 +1129,8 @@
 }
 
 .description__text {
+    margin: 0 0 6px;
+
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-style: normal;
@@ -1141,6 +1143,14 @@
 
 .description__text *:not(:last-child) {
     margin: 0 0 10px;
+}
+
+.description__item {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 17px;
 }
 
 /* animations */
