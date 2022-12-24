@@ -1291,6 +1291,7 @@
 
 .page__order {
     margin: 0 0 138px;
+    padding: 67px 50px 100px;
 
     background: var(--light-grey-bg);
 }
@@ -1302,6 +1303,10 @@
     gap: 100px;
 
     margin: 0 0 100px;
+}
+
+.order__column {
+    width: 50%;
 }
 
 /* animations */
