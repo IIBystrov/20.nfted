@@ -1300,3 +1300,15 @@
         transform: translateX(0);
     }
 }
+
+@keyframes anim-icon-alternate {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(-10%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
