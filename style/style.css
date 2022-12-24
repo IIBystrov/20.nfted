@@ -1103,11 +1103,19 @@
 .page__description {
     width: 100%;
 
+    padding: 58px 46px 62px;
+
     background: var(--grey-bg);
 }
 
 .description__column {
     width: 50%;
+}
+
+.description__header {
+    width: 100%;
+    
+
 }
 
 /* animations */
