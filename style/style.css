@@ -1309,6 +1309,17 @@
     width: 50%;
 }
 
+.order__img {
+    display: block;
+
+    width: 100%;
+    max-width: 456px;
+    height: 329px;
+
+    object-fit: contain;
+}
+
+
 /* animations */
 
 @keyframes anim-gradient {
