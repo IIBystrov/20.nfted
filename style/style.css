@@ -1161,6 +1161,8 @@
     align-items: center;
     gap: 17px;
 
+    padding: 25px 0 22px;
+
     border-bottom: 3px solid var(--light-accent-border);
 }
 
