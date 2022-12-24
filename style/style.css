@@ -183,6 +183,9 @@
     --dark-accent-bg: #2c353d;
     --soft-bg: #fff4f1;
     --accent-bg: #ff6e30;
+    --icon-soft-bg: #f9acdf;
+    --icon-light-bg: #b1f0ca;
+    --icon--default-bg: #efd894;
     --caption-gradient: linear-gradient(to right, #ffffff 0%, #1f1820 21.74%,
                      #d36e30 54.03%, #2b6915 85.28%);
     --accent-gradient: linear-gradient(to right, #2d1562 0%, #a62e85 34.9%,
@@ -1151,6 +1154,13 @@
     justify-content: flex-start;
     align-items: center;
     gap: 17px;
+}
+
+.description__icon-contain {
+    width: 100%;
+    max-width: 50px;
+    height: 100%;
+    max-height: 50px;
 }
 
 /* animations */
