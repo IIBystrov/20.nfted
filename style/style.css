@@ -1101,7 +1101,13 @@
 }
 
 .page__description {
+    width: 100%;
+
     background: var(--grey-bg);
+}
+
+.description__column {
+    width: 50%;
 }
 
 /* animations */
