@@ -1169,12 +1169,24 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    
+
     width: 100%;
     max-width: 50px;
     height: 50px;
 
     border-radius: 50%;
+}
+
+.icon-contain--soft {
+    background: var(--icon-soft-bg);
+}
+
+.icon-contain--light {
+ background: var(--icon-light-bg);
+}
+
+.icon-contain--default {
+    background: var(--icon--default-bg);
 }
 
 .description__icon {
