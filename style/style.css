@@ -1152,6 +1152,8 @@
 .description__list {
     width: 100%;
     max-width: 474px;
+
+    margin: 0 0 35px;
 }
 
 .description__item {
@@ -1198,6 +1200,20 @@
     max-height: 38px;
 
     object-fit: contain;
+}
+
+.description__lead {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: var(--default-size-btn);
+    line-height: var(--default-lineheight);
+    text-transform: capitalize;
+    color: var(--default-color-text);
+}
+
+.description__lead *:not(:last-child) {
+    margin: 0 0 10px;
 }
 
 /* animations */
