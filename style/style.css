@@ -1466,6 +1466,13 @@
     margin: 40px auto;
 }
 
+
+/* .footer */
+
+    .page__footer {
+        padding: 90px 116px 30px;
+    }
+
 /* animations */
 
 @keyframes anim-gradient {
