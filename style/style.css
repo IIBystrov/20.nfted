@@ -160,6 +160,7 @@
     --default-color-text: #242424;
     --standart-color-text: #ffffff;
     --accent-color-text: #f89773;
+    --lignt-color-text: #7e848a;
 
     /* font-size */
     --default-size-btn: 16px;
@@ -1325,8 +1326,8 @@
 
 .order__title {
     margin: 0 0 24px;
-    
-    font-family: "Roboto", sans-serif;
+
+    font-family: "Poppins", sans-serif;
     font-weight: 700;
     font-style: normal;
     font-size: var(--small-size-text);
@@ -1335,6 +1336,18 @@
     color: var(--default-color-text);
 }
 
+.order__description {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: var(--default-size-text);
+    line-height: var(--default-lineheight);
+    color: var(--lignt-color-text);
+}
+
+.order__description *:not(:last-child) {
+    margin: 0 0 10px;
+}
 
 /* animations */
 
