@@ -1366,7 +1366,8 @@
 .scale__line-contain {
     position: relative;
 
-    padding: 0 50px;
+    margin: 0 0 30px;
+    padding: 0 30px;
 }
 
 .scale__line {
@@ -1386,6 +1387,13 @@
     height: 47px;
 
     object-fit: contain;
+}
+
+.scale__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
 /* animations */
