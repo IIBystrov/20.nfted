@@ -1488,6 +1488,12 @@
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
+
+        margin: 0 0 47px;
+    }
+
+    .footer__item {
+        width: 25%;
     }
 
     .footer__description {
@@ -1531,6 +1537,19 @@
         height: 22px;
 
         object-fit: contain;
+    }
+
+    .form__description {
+        margin: 0 0 6px;
+
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: var(--default-size-btn);
+        line-height: var(--default-lineheight);
+        color: var(--default-color-text);
+
+        opacity: 0.7;
     }
 
 /* animations */
