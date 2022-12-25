@@ -1396,6 +1396,16 @@
     align-items: center;
 }
 
+.scale__point {
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: calc(var(--default-size-text)*1.1);
+    line-height: var(--default-lineheight);
+    text-align: center;
+
+    opacity: 0.7;
+}
 /* animations */
 
 @keyframes anim-gradient {
