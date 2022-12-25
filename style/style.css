@@ -1623,6 +1623,14 @@
         border-bottom: 5px solid var(--default-border);
     }
 
+    .copy__list {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 33px;
+    }
+
 /* animations */
 
 @keyframes anim-gradient {
