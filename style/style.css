@@ -1631,6 +1631,15 @@
         gap: 33px;
     }
 
+    .copy__text {
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        font-size: var(--default-size-btn);
+        line-height: var(--default-lineheight);
+        color: var(--default-color-text);
+    }
+
 /* animations */
 
 @keyframes anim-gradient {
