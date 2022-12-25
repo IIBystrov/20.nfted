@@ -1426,7 +1426,27 @@
 /* .partner */
 
 .page__partner {
+    position: relative;
+    z-index: 1;
 
+    background: var(--soft-radial-gradient);
+}
+
+.page__partner::after {
+    content: "";
+
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+
+    display: block;
+
+    background: url("../img/images/thumb__icon/thumb__icon-1.png") no-repeat center/cover;
+
+    filter: blur(40px);
 }
 
 .partner__title {
