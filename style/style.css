@@ -1564,6 +1564,26 @@
         color: var(--default-color-text);
     }
 
+    .form__btn {
+        display: inline-block;
+
+        padding: 11px 39px; 
+
+        border: 1px solid var(--accent-border);
+        border-radius: 10px;
+        background: var(--accent-bg);
+
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        font-size: var(--default-size-btn);
+        line-height: var(--default-lineheight);
+        text-align: center;
+        color: var(--standart-color-text);
+
+        cursor: pointer;
+    }
+
 /* animations */
 
 @keyframes anim-gradient {
