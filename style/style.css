@@ -1584,6 +1584,18 @@
         cursor: pointer;
     }
 
+    .footer__subtitle {
+        margin: 0 0 23px;
+
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 20px;
+        line-height: 30px;
+        text-transform: capitalize;
+        color: var(--default-color-text);
+    }
+
 /* animations */
 
 @keyframes anim-gradient {
