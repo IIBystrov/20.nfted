@@ -1377,11 +1377,22 @@
     background: var(--accent-bg);
 }
 
+.scale__list-icon {
+    position: relative;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+
+    padding: 0 30px;
+}
+
 .scale__step-icon {
     position: absolute;
-
     top: 50%;
-    transform: translateY(-50%);
+    transform: translate(-50%, -50%);
 
     width: 47px;
     height: 47px;
@@ -1394,6 +1405,9 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    gap: 20px;
+
+    padding: 0 30px;
 }
 
 .scale__point {
