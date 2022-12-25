@@ -1364,6 +1364,8 @@
 }
 
 .scale__line-contain {
+    position: relative;
+
     padding: 0 50px;
 }
 
@@ -1372,6 +1374,18 @@
     height: 3px;
 
     background: var(--accent-bg);
+}
+
+.scale__step-icon {
+    position: absolute;
+
+    top: 50%;
+    transform: translateY(-50%);
+
+    width: 47px;
+    height: 47px;
+
+    object-fit: contain;
 }
 
 /* animations */
