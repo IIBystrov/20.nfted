@@ -1453,6 +1453,19 @@
     display: none;
 }
 
+.partner__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+
+    width: 100%;
+    max-width: 1108px;
+
+    margin: 40px auto;
+}
+
 /* animations */
 
 @keyframes anim-gradient {
