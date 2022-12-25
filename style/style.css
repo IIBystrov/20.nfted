@@ -1518,6 +1518,14 @@
         color: var(--default-color-text);
     }
 
+    .social__list {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 26px;
+    }
+
 /* animations */
 
 @keyframes anim-gradient {
