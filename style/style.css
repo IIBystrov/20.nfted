@@ -1552,6 +1552,18 @@
         opacity: 0.7;
     }
 
+    .form__input {
+        display: block;
+
+        margin: 0 0 20px;
+        padding: 11px 15px;
+
+        border: 1px solid var(--light-accent-border);
+        border-radius: 5px;
+
+        color: var(--default-color-text);
+    }
+
 /* animations */
 
 @keyframes anim-gradient {
