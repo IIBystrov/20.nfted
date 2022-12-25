@@ -171,6 +171,7 @@
     --standart-color-text: #ffffff;
     --accent-color-text: #f89773;
     --lignt-color-text: #7e848a;
+    --grey-color-text: #707070;
 
     /* font-size */
     --default-size-btn: 16px;
@@ -1594,6 +1595,20 @@
         line-height: 30px;
         text-transform: capitalize;
         color: var(--default-color-text);
+    }
+
+    .list__item {
+        margin: 0 0 10px;
+    }
+    
+    .footer__link {
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: var(--default-size-btn);
+        line-height: var(--default-lineheight);
+        text-transform: capitalize;
+        color: var(--grey-color-text);
     }
 
 /* animations */
