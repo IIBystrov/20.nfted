@@ -1526,6 +1526,13 @@
         gap: 26px;
     }
 
+    .social__img {
+        width: 22px;
+        height: 22px;
+
+        object-fit: contain;
+    }
+
 /* animations */
 
 @keyframes anim-gradient {
