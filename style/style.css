@@ -1618,6 +1618,9 @@
         align-items: center;
 
         width: 100%;
+
+        border-top: 5px solid var(--default-border);
+        border-bottom: 5px solid var(--default-border);
     }
 
 /* animations */
