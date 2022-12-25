@@ -1363,7 +1363,7 @@
     padding: 18px 37px;
 
     background: var(--accent-bg);
-    border: 1px solid inherit;
+    border: 1px solid var(--accent-border);
     border-radius: 8px;
 
     font-family: "Roboto", sans-serif;
