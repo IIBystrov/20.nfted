@@ -1490,6 +1490,23 @@
         align-items: center;
     }
 
+    .footer__description {
+        margin: 0 0 9px;
+
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        font-style: var(--default-size-btn);
+        line-height: var(--default-lineheight);
+        color: var(--default-color-text);
+
+        opacity: 0.7;
+    }
+
+    .footer__description *:not(:last-child) {
+        margin: 0 0 7px;
+    }
+
 /* animations */
 
 @keyframes anim-gradient {
