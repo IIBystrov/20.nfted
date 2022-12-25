@@ -1507,6 +1507,17 @@
         margin: 0 0 7px;
     }
 
+    .social__title {
+        margin: 0 0 22px;
+
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: calc(var(--default-size-text)*0.77);
+        text-transform: capitalize;
+        color: var(--default-color-text);
+    }
+
 /* animations */
 
 @keyframes anim-gradient {
