@@ -14,6 +14,7 @@
         url("../fonts/poppins/regular/poppins_regular.svg") format("svg");
     font-weight: 400;
     font-style: normal;
+    font-display: swap;
 }
 
 /* poppins medium */
@@ -29,6 +30,7 @@
         url("../fonts/poppins/medium/poppins_medium.svg") format("svg");
     font-weight: 500;
     font-style: normal;
+    font-display: swap;
 }
 
 /* poppins semibold */
@@ -44,6 +46,7 @@
         url("../fonts/poppins/semibold/poppins_semibold.svg") format("svg");
     font-weight: 600;
     font-style: normal;
+    font-display: swap;
 }
 
 /* poppins bold */
@@ -59,6 +62,7 @@
         url("../fonts/poppins/bold/poppins_bold.svg") format("svg");
     font-weight: 700;
     font-style: normal;
+    font-display: swap;
 }
 
 /* poppins extrabold */
@@ -74,6 +78,7 @@
         url("../fonts/poppins/extrabold/poppins_extrabold.svg") format("svg");
     font-weight: 800;
     font-style: normal;
+    font-display: swap;
 }
 
 /* josefin */
@@ -90,6 +95,7 @@
         url("../fonts/josefin/semibold/josefin_sans_semibold.svg") format("svg");
     font-weight: 600;
     font-style: normal;
+    font-display: swap;
 }
 
 /* josefin sans bold */
@@ -105,6 +111,7 @@
         url("../fonts/josefin/bold/josefin_sans_bold.svg") format("svg");
     font-weight: 700;
     font-style: normal;
+    font-display: swap;
 }
 
 /* roboto */
@@ -121,6 +128,7 @@
         url("../fonts/roboto/regular/roboto_regular.svg") format("svg");
     font-weight: 400;
     font-style: normal;
+    font-display: swap;
 }
 
 /* roboto medium */
@@ -136,6 +144,7 @@
         url("../fonts/roboto/medium/roboto_medium.svg") format("svg");
     font-weight: 500;
     font-style: normal;
+    font-display: swap;
 }
 
 /* roboto bold */
@@ -151,6 +160,7 @@
         url("../fonts/roboto/bold/roboto_bold.svg") format("svg");
     font-weight: 700;
     font-style: normal;
+    font-display: swap;
 }
 
 /* variables */
