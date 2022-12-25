@@ -163,6 +163,23 @@
     font-display: swap;
 }
 
+/* rubik */
+/* rubik medium */
+
+@font-face {
+    font-family: "Rubik";
+    src: local("Rubik medium"),
+        url("../fonts/rubik/medium/rubik_medium.eot"),
+        url("../fonts/rubik/medium/rubik_medium.eot#iefix") format("embedded-opentype"),
+        url("../fonts/rubik/medium/rubik_medium.woff2") format("woff2"),
+        url("../fonts/rubik/medium/rubik_medium.woff") format("woff"),
+        url("../fonts/rubik/medium/rubik_medium.ttf") format("truetype"),
+        url("../fonts/rubik/medium/rubik_medium.svg") format("svg");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
 /* variables */
 
 :root {
