@@ -1333,6 +1333,8 @@
 }
 
 .order__description {
+    margin: 0 0 34px;
+    
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-style: normal;
@@ -1343,6 +1345,22 @@
 
 .order__description *:not(:last-child) {
     margin: 0 0 10px;
+}
+
+.order__btn {
+    padding: 18px 37px;
+
+    background: var(--accent-bg);
+    border: 1px solid inherit;
+    border-radius: 8px;
+
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: var(--default-size-text);
+    line-height: var(--default-lineheight);
+    text-transform: capitalize;
+    color: var(--standart-color-text);
 }
 
 /* animations */
