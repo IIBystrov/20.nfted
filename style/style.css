@@ -248,6 +248,10 @@
     background: var(--standart-bg);
     
     font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: var(--default-size-text);
+    line-height: var(--default-lineheight);
     color: var(--default-color-text);
 }
 
@@ -293,7 +297,6 @@
 .logo {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
-    font-style: normal;
     font-size: var(--logo-size-text);
     line-height: 1.66;
     text-transform: uppercase;
@@ -323,8 +326,6 @@
 .nav__link {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
-    font-style: normal;
-    font-size: var(--default-size-text);
     line-height: 1.2;
 }
 
@@ -341,7 +342,6 @@
 
     font-family: "Roboto", sans-serif;
     font-weight: 700;
-    font-style: normal;
     font-size: var(--default-size-btn);
     line-height: var(--default-lineheight);
     text-transform: capitalize;
