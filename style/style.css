@@ -384,10 +384,19 @@
     min-width: 175px;
 
     padding: 18px 33px;
+
+    transition: background 0.3s ease-in, box-shadow 0.3s ease-in, text-shadow 0.3s ease-in;
 }
 
 .btn--accent {
     background: var(--dark-bg);
+}
+
+.header__btn:hover {
+    background: var(--accent-bg);
+
+    box-shadow: 0 0 20px 5px var(--accent-bg);
+    text-shadow: 0 0 10px var(--standart-color-text);
 }
 
 /* .intro */
@@ -558,7 +567,14 @@
 .btn--standart {
     background: var(--accent-bg);
 
+    transition: box-shadow 0.3s ease-in, text-shadow 0.3s ease-in;
+
     font-size: var(--default-size-text);
+}
+
+.btn--standart:hover {
+    box-shadow: 0 0 20px 5px var(--accent-bg);
+    text-shadow: 0 0 10px var(--standart-color-text);
 }
 
 .btn--w-margin {
@@ -574,6 +590,12 @@
 
 .btn__icon {
     height: 55px;
+
+    transition: transform 0.3s ease-in;
+}
+
+.btn--w-margin:hover .btn__icon{
+    transform: scale(1.2);
 }
 
 .intro__contain-img {
