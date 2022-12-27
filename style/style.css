@@ -1048,23 +1048,20 @@
 }
 
 
-.market__inner {
+/* .market__inner {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: stretch;
     gap: 30px;
-}
+} */
 
-.market__column {
-    width: 50%;
-}
 
 .market__list {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-rows: auto auto;
+    grid-auto-flow: dense;
     gap: 30px;
 }
 
@@ -1076,7 +1073,11 @@
 }
 
 .market__card--preview {
-    max-width: 100%;
+    grid-column: span 2;
+    grid-row: span 2;
+
+    width: 100%;
+    max-width: 567px;
 }
 
 .market__card-img {
@@ -1143,6 +1144,8 @@
     justify-content: space-between;
     align-items: center;
     gap: 10px;
+
+    padding: 0 0 10px;
 }
 
 .market__cost {
