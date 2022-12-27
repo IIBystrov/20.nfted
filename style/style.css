@@ -392,7 +392,8 @@
     background: var(--dark-bg);
 }
 
-.header__btn:hover {
+.header__btn:hover,
+.header__btn:focus {
     background: var(--accent-bg);
 
     box-shadow: 0 0 20px 5px var(--accent-bg);
@@ -572,8 +573,10 @@
     font-size: var(--default-size-text);
 }
 
-.btn--standart:hover {
+.btn--standart:hover,
+.btn--standart:focus {
     box-shadow: 0 0 20px 5px var(--accent-bg);
+
     text-shadow: 0 0 10px var(--standart-color-text);
 }
 
@@ -594,7 +597,8 @@
     transition: transform 0.3s ease-in;
 }
 
-.btn--w-margin:hover .btn__icon{
+.btn--w-margin:hover .btn__icon,
+.btn--w-margin:focus .btn__icon {
     transform: scale(1.2);
 }
 
