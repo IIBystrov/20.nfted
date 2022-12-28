@@ -905,6 +905,14 @@
     font-size: var(--default-size-text);
     line-height: var(--min-lineheight);
     color: var(--standart-color-text);
+
+    transition: color 0.3s ease-in, box-shadow 0.3s ease-in;
+}
+
+.card__link:hover,
+.card__link:focus {
+    color: var(--accent-color-text);
+    text-shadow: 0 0 7px var(--standart-color-text);
 }
 
 .card__btn {
