@@ -1193,6 +1193,14 @@
     font-size: calc(var(--default-size-text)*0.67);
     line-height: var(--smoll-lineheight);
     color: var(--default-color-text);
+
+    transition: color 0.3s ease-in, text-shadow 0.3s ease-in;
+}
+
+.market__link:hover,
+.market__link:focus {
+    color: var(--accent-color-text);
+    text-shadow: 0 0 1px var(--default-color-text);
 }
 
 .link--preview {
@@ -1255,6 +1263,19 @@
     font-size: calc(var(--default-size-text)*0.67);
     line-height: var(--default-lineheight);
     color: var(--default-color-text);
+
+    transition: background 0.3s ease-in-out, color 0.3s ease-in-out, border-color 0.3s ease-in-out,
+                text-shadow 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.market__btn:hover,
+.market__btn:focus {
+    background: var(--accent-bg);
+    border-color: var(--accent-border);
+    box-shadow: 0 0 20px var(--accent-bg);
+
+    color: var(--standart-color-text);
+    text-shadow: 0 0 10px var(--standart-color-text);
 }
 
 .btn--preview {
