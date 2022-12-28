@@ -1755,6 +1755,29 @@
         border-radius: 5px;
 
         color: var(--default-color-text);
+
+        transition: border-color 0.3s ease-in, box-shadow 0.3s ease-in, background 0.3s ease-in,
+                    color 0.3s ease-in;
+    }
+
+    .form__input:hover,
+    .form__input:focus {
+        border-color: var(--accent-border);
+        box-shadow: 0 0 10px var(--accent-bg);
+    }
+
+    .form__input:focus {
+        background: rgba(0, 0, 0, 0.1);
+    }
+
+    .form__input::placeholder {
+        opacity: 1;
+
+        transition: opacity 0.3s ease-in;
+    }
+
+    .form__input:focus.form__input::placeholder {
+        opacity: 0;
     }
 
     .form__btn {
@@ -1775,6 +1798,15 @@
         color: var(--standart-color-text);
 
         cursor: pointer;
+
+        transition: box-shadow 0.3s ease-in, text-shadow 0.3s ease-in;
+    }
+
+    .form__btn:hover,
+    .form__btn:focus {
+        box-shadow: 0 0 10px var(--accent-bg);
+
+        text-shadow: 0 0 10px var(--standart-color-text);
     }
 
     .footer__subtitle {
