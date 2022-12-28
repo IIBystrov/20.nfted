@@ -1073,7 +1073,7 @@
     font-family: "Poppins", sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: calc(var(--default-size-tex)*0.83);
+    font-size: calc(var(--default-size-text)*0.83);
     color: var(--default-color-text);
     text-transform: capitalize;
 
@@ -1690,7 +1690,7 @@
         font-family: "Poppins", sans-serif;
         font-weight: 600;
         font-style: normal;
-        font-style: var(--default-size-btn);
+        font-size: var(--default-size-btn);
         line-height: var(--default-lineheight);
         color: var(--default-color-text);
 
@@ -1897,15 +1897,7 @@
 /* animations */
 
 @keyframes anim-gradient {
-    0% {
-        background-position: bottom;
-    }
-    50% {
-        background-position: middle;
-    }
-    100% {
-        background-position: top;
-    }
+ 
 }
 
 @keyframes anim-icon {
