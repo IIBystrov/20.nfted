@@ -1546,6 +1546,16 @@
     line-height: var(--default-lineheight);
     text-transform: capitalize;
     color: var(--standart-color-text);
+
+    transition: background 0.3s ease-in, box-shadow 0.3s ease-in, text-shadow 0.3s ease-in;
+}
+
+.order__btn:hover,
+.order__btn:focus {
+    background: var(--accent-bg);
+    box-shadow: 0 0 10px var(--accent-bg);
+
+    text-shadow: 0 0 10px var(--standart-color-text);
 }
 
 .scale__line-contain {
