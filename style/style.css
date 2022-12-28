@@ -1872,6 +1872,15 @@
         color: var(--default-color-text);
     }
 
+    .copy__link {
+        transition: color 0.3s ease-in;
+    }
+
+    .copy__link:hover,
+    .copy__link:focus {
+        color: var(--accent-color-text);
+    }
+
 /* animations */
 
 @keyframes anim-gradient {
