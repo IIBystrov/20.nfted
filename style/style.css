@@ -885,7 +885,7 @@
 
 .card:hover .card__description,
 .card:focus .card__description {
-    transform: translateY(-27%);
+    transform: translateY(-30%);
 }
 
 .card:hover .card__contain-img::before,
@@ -920,6 +920,15 @@
     font-size: calc(var(--default-size-text)*0.83);
     line-height: var(--default-lineheight);
     color: var(--standart-color-text);
+
+    transition: box-shadow 0.3s ease-in, text-shadow 0.3s ease-in;
+}
+
+.card__btn:hover,
+.card__btn:focus {
+    box-shadow: 0 0 7px var(--accent-bg);
+
+    text-shadow: 0 0 5px var(--standart-color-text);
 }
 
 
