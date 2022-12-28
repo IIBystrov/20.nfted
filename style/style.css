@@ -1863,6 +1863,15 @@
         gap: 33px;
     }
 
+    .pay__item {
+        transition: transform 0.3s ease-in;
+    }
+    
+    .pay__item:hover,
+    .pay__item:focus {
+        transform: translateY(-10%);
+    }
+
     .copy__text {
         font-family: "Poppins", sans-serif;
         font-weight: 600;
