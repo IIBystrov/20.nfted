@@ -795,8 +795,16 @@
     background: transparent;
     border: 1px solid var(--default-border);
     border-radius: 10px;
+
+    transition: background 0.3s ease-in, border 0.3s ease-in, box-shadow 0.3s ease-in;
 }
 
+.header__control:hover,
+.header__control:focus {
+    background: var(--accent-bg);
+    border-color: var(--accent-border);
+    box-shadow: 0 0 10px var(--accent-bg); 
+}
 .btn__icon--control {
     height: 29px;
 }
