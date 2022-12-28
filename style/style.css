@@ -1833,6 +1833,14 @@
         line-height: var(--default-lineheight);
         text-transform: capitalize;
         color: var(--grey-color-text);
+
+        transition: color 0.3s ease-in, text-shadow 0.3s ease-in;
+    }
+
+    .footer__link:hover,
+    .footer__link:focus {
+        color: var(--default-color-text);
+        text-shadow: 0 0 7px var(--default-color-text);
     }
 
     .footer__copy {
