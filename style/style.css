@@ -1687,6 +1687,11 @@
 .scale__line-contain {
     position: relative;
 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
     margin: 0 0 30px;
     padding: 0 30px;
 }
@@ -1698,22 +1703,10 @@
     background: var(--accent-bg);
 }
 
-.scale__list-icon {
-    position: relative;
-    
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    gap: 20px;
-
-    padding: 0 30px;
-}
-
 .scale__step-icon {
-    position: absolute;
+    /* position: absolute;
     top: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); */
 
     width: 47px;
     height: 47px;
@@ -1728,7 +1721,19 @@
     align-items: center;
     gap: 20px;
 
+    width: 100%;
+
     padding: 0 30px;
+}
+
+.scale__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+
+    transform: translateY(-20%);
 }
 
 .scale__point {
@@ -1888,6 +1893,9 @@
 
 .form__input {
     display: block;
+
+    width: 100%;
+    max-width: 255px;
 
     margin: 0 0 20px;
     padding: 11px 15px;
@@ -2072,6 +2080,10 @@
         justify-content: center;
     }
 
+    .artist__list {
+        gap: 15px;
+    }
+
     .market__nav {
         display: none;
     }
@@ -2169,6 +2181,74 @@
         display: block;
 
         opacity: 1;
+    }
+
+    .page__description {
+        padding: 58px 46px 0;
+    }
+
+    .description {
+        flex-direction: column;
+    }
+
+    .partner__list {
+        justify-content: center;
+    }
+
+    .footer__column {
+        flex-direction: column;
+
+        text-align: center;
+    }
+
+    .footer__item {
+        margin: 0 0 30px;
+    }
+
+    .social__list {
+        justify-content: center;
+    }
+
+    .footer__copy {
+        flex-direction: column;
+    }
+
+    .page__order {
+        padding: 30px;
+    }
+
+    .order__inner {
+        margin: 0 0 30px;
+    }
+    
+    .order__scale {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .scale__line-contain {
+        flex-direction: row;
+        justify-content: center;
+        align-items: stretch;
+    }
+
+    .scale__line {
+        margin-right: -18%;
+        width: 3px;
+        height: 325px;
+    }
+
+    .scale__list {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .scale__item {
+        flex-direction: row;
+
+        transform: translate(0, 0);
     }
     
     
