@@ -1064,6 +1064,14 @@
     color: var(--default-color-text);
 }
 
+.market__select {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
 .market__nav {
     display: flex;
     flex-direction: row;
@@ -1089,6 +1097,7 @@
     font-size: calc(var(--default-size-text)*0.83);
     color: var(--default-color-text);
     text-transform: capitalize;
+    white-space: nowrap;
 
     transition: background 0.3s ease-in, color 0.3s ease-in;
 }
@@ -1968,6 +1977,30 @@
     }
 
     .btn-contain {
+        justify-content: center;
+    }
+
+    .market__nav {
+        display: none;
+    }
+
+    .market__select {
+        position: relative;
+    }
+
+    .order__inner {
+        justify-content: center;
+    }
+
+    .order__column--description {
+        text-align: center;
+    }
+
+    .partner__list {
+        padding: 0 20px;
+    }
+
+    .footer__column {
         justify-content: center;
     }
 }
