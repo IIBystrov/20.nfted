@@ -286,7 +286,7 @@
     justify-content: space-between;
     align-items: center;
 
-    overflow: hidden;
+    overflow: overflow;
 }
 
 .page__header {
@@ -318,6 +318,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    gap: 70px;
 }
 
 .burger-contain--active {
