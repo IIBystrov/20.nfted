@@ -104,5 +104,11 @@ textarea {
 button {
 	cursor: pointer;
 }
+
+img {
+	display: block;
+	
+	pointer-events: none;
+}
    
    
