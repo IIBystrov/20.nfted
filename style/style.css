@@ -2107,6 +2107,10 @@
         display: block;
     }
     
+    .header__burger-contain {
+        transform: translate(40%, 20%);
+    }
+
     .burger-contain--active {
         position: absolute;
         left: 60%;
@@ -2116,6 +2120,10 @@
         display: block;
 
         align-items: flex-start;
+
+        transform: translate(0%, 3%);
+
+        transition: transform 0.3s ease-in;
 
     }
 
@@ -2146,15 +2154,21 @@
         display: flex;
         flex-direction: column;
 
-        margin: 0 0 20px;
+        margin: 0 0 55px;
     }
 
     .header__btn {
         display: none;
+
+        opacity: 0;
+
+        transition: opacity 0.3s ease-in;
     }
 
     .header__btn--active {
         display: block;
+
+        opacity: 1;
     }
     
     
