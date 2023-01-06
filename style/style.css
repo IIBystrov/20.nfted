@@ -1075,6 +1075,10 @@
     width: 33.3%;
 }
 
+.features__item:not(:last-child) {
+    border-right: 3px solid #e0b9b3;
+}
+
 .features__card {
     width: 100%;
     max-width: 218px;
@@ -2184,6 +2188,15 @@
 
         opacity: 1;
     }
+    
+    .features__item {
+        width: 100%;
+    } 
+
+    .features__item:not(:last-child) {
+        border-right: none;
+        border-bottom: 3px solid #e0b9b3;
+    }
 
     .page__description {
         padding: 58px 46px 0;
@@ -2284,10 +2297,6 @@
     .page__features {
         margin: 0;
     }
-    
-    .features__item {
-        width: 100%;
-    } 
 
     .description {
         margin: 0;
